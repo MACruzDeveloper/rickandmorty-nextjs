@@ -1,0 +1,15 @@
+
+.episode {
+  & a {
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.25);
+    }
+  }
+}
+
+.date {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}

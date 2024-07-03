@@ -1,0 +1,33 @@
+
+.content {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.list_episodes {
+  background-color: var(--color-blue-op);
+  padding: 2rem;
+  border-radius: 0.5rem;
+
+  & >li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  & p {
+    flex-grow: 1;
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+
+  & span {
+    display: block;
+  }
+
+  & a {
+    font-size: 1.6rem;
+    line-height: 1;
+    color: var(--color-blue)
+  }
+}

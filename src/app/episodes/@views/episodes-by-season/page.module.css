@@ -1,0 +1,19 @@
+
+.content {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.list_seasons {
+  & >li {
+    font-size: 1.6rem;
+    margin-bottom: 0.2rem;
+  }
+
+  & p {
+    font-size: 1.6rem;
+    line-height: 1;
+    text-transform: uppercase;
+    color: white;
+  }
+}

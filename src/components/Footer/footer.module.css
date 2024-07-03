@@ -1,0 +1,21 @@
+
+.footer {
+  min-height: 10rem;
+  padding: 4rem;
+}
+
+.flex {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  @media (width >= 768px) {
+    & img {
+      margin: 0 2rem;
+    }
+  }
+
+  & img {
+    opacity: 0.4;
+    margin: 2rem;
+  }
+}

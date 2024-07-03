@@ -1,0 +1,26 @@
+
+.tabs {
+  padding: 4rem 0;
+}
+
+.tabs_nav {
+  max-width: 50rem;
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.3rem solid var(--color-blue);
+  margin: 0 auto;
+
+  & a {
+    display: block;
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 1rem 2rem;
+    background-color: var(--color-blue-op-trans);
+    border-radius: 0.5rem 0.5rem 0 0;
+
+    &.active,
+    &:hover {
+      background-color: var(--color-blue);
+    }
+  }
+}
